@@ -1,0 +1,4 @@
+FROM httpd
+RUN mkdir -P /var/www/html/mobile
+RUN echo "Hello world this is mobile page"  >
+CMD ["httpd", "-DEFORGROUND"]
